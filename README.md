@@ -45,9 +45,6 @@ SYSCALL_DEFINE0(hackers)
 }
 
 
-![IMG-20210607-WA0028](https://user-images.githubusercontent.com/82906996/121094058-49d87b00-c7ee-11eb-872d-53a14a7c596f.jpg)
-
-
 ![IMG-20210607-WA0026](https://user-images.githubusercontent.com/82906996/121094773-70e37c80-c7ef-11eb-81a1-e90818549229.jpg)
 
 ![IMG-20210607-WA0025](https://user-images.githubusercontent.com/82906996/121094801-7c36a800-c7ef-11eb-8e74-3f5fa488aeec.jpg)
