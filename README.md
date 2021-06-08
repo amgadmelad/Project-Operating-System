@@ -9,6 +9,7 @@
                             ------------------------------------------------------------------------------------------------------------------
 # Now we will start to add our system call in ubuntu.
 # We will download a necessary tools to add a basic system call to the linux kernel.
+
 # We will enter the following codes line by line to make sure that we have all the necessary and required packages to add a system call and then compile the kernel successfully:
    
 
