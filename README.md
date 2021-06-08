@@ -59,6 +59,8 @@ SYSCALL_DEFINE0(hackers)
 
 ![IMG-20210607-WA0021](https://user-images.githubusercontent.com/82906996/121095499-bbb1c400-c7f0-11eb-8790-698841fcf015.jpg)
 
+# We prepare the installer of the kernel.
+
 ![IMG-20210607-WA0020](https://user-images.githubusercontent.com/82906996/121095545-c9674980-c7f0-11eb-944b-7a3658c2ec04.jpg)
 
 
