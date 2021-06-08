@@ -67,6 +67,8 @@ SYSCALL_DEFINE0(hackers)
 
 ![IMG-20210607-WA0017](https://user-images.githubusercontent.com/82906996/121095662-0a5f5e00-c7f1-11eb-8950-68968091bc12.jpg)
 
+# Now we install the kernel and update the operating system.
+
 ![IMG-20210607-WA0016](https://user-images.githubusercontent.com/82906996/121095705-1ea35b00-c7f1-11eb-8957-ba5e68d7289d.jpg)
 
 ![IMG-20210607-WA0014](https://user-images.githubusercontent.com/82906996/121095755-3b3f9300-c7f1-11eb-98d5-a3fe4b53f6f4.jpg)
