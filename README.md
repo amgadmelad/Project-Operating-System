@@ -9,12 +9,10 @@
                             ------------------------------------------------------------------------------------------------------------------
 # Now we will start to add our system call in ubuntu.
 # We will enter the following codes line by line to make sure that we have all the necessary and required packages to add a system call and then compile the kernel successfully:
-
-1) apt-get update                                   2) apt-get upgrade      
+   
 
 ![IMG-20210607-WA0037](https://user-images.githubusercontent.com/82906996/121091821-e436bf80-c7ea-11eb-8202-69683433ab78.jpg)
 
-# We will have to write sudo in start of approx. write sudo –s on terminal and give my password and then I will be free to give password on every command.
 
 ![IMG-20210607-WA0036](https://user-images.githubusercontent.com/82906996/121091973-23fda700-c7eb-11eb-98b7-3be812744f6b.jpg)
 
@@ -31,17 +29,18 @@
 # I've created a directory with hacker name in the kernel source directory in /usr/src/linux-3.13/ And I created a hacker.c file in hacker directory with below content.
 
 #include <linux/kernel.h>
+#include <linux/syscalls.h>
 
-asmlinkage long sys_hackers(void)
+SYSCALL_DEFINE0(hackers)
+
 {
-        printk(“Hello world\n”);
-        return 0;
+    printk("hello hackers are here\n");
+    return 0;
 }
 
 
 ![IMG-20210607-WA0028](https://user-images.githubusercontent.com/82906996/121094058-49d87b00-c7ee-11eb-872d-53a14a7c596f.jpg)
 
-# Now we make menuconfig 
 
 ![IMG-20210607-WA0026](https://user-images.githubusercontent.com/82906996/121094773-70e37c80-c7ef-11eb-81a1-e90818549229.jpg)
 
@@ -51,13 +50,11 @@ asmlinkage long sys_hackers(void)
 
 ![IMG-20210607-WA0024](https://user-images.githubusercontent.com/82906996/121094919-a8eabf80-c7ef-11eb-91b9-f57321fecba6.jpg)
 
-# We do "Sudo make modules_install -j3
 
 ![IMG-20210607-WA0021](https://user-images.githubusercontent.com/82906996/121095499-bbb1c400-c7f0-11eb-8790-698841fcf015.jpg)
 
 ![IMG-20210607-WA0020](https://user-images.githubusercontent.com/82906996/121095545-c9674980-c7f0-11eb-944b-7a3658c2ec04.jpg)
 
-# We will install sudo make install -j3
 
 ![IMG-20210607-WA0017](https://user-images.githubusercontent.com/82906996/121095662-0a5f5e00-c7f1-11eb-8950-68968091bc12.jpg)
 
